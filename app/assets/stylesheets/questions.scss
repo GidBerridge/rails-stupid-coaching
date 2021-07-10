@@ -6,6 +6,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+$link-color: #004696;
 
 .container {
   width: 400px;
@@ -18,5 +19,5 @@ body {
 }
 
 .link {
-  color: #004696;
+  color: $link-color;
 }
