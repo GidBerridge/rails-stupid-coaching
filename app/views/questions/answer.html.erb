@@ -1,8 +1,6 @@
 
 <div class="container">
-  <div class="card">
     <h1>Stupid Coaching</h1>
-  </div>
   <br><br>
   <div class="card">
     <%= @question %>
@@ -12,5 +10,8 @@
   <div class="card">
     <%= @answer %>
     <br><br>-Your coach
+  </div>
+  <div class="link">
+  <%= link_to "Ask a new question", ask_path %>
   </div>
 </div>
